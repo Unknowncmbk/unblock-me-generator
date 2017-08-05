@@ -1,0 +1,36 @@
+/*****
+** Table Description:
+** Represents a relation that holds relevant information about a puzzle.
+** 
+** Reasoning for structure:
+** PK is the `id` field, as it’s auto-increment, and we do not know the ID of the puzzle
+** until after we insert it into the db. We also want to keep track of the hash_code
+** to make sure we aren't inserting the same puzzle multiple times.
+*****/
+CREATE TABLE IF NOT EXISTS puzzle(
+id INT NOT NULL AUTO_INCREMENT, 
+hash_code INT NOT NULL, 
+length INT NOT NULL, 
+difficulty INT NOT NULL, 
+PRIMARY KEY (id)
+);
+
+/*****
+** Table Description:
+** Represents a relation that holds the pieces that make up the puzzle.
+** 
+** Reasoning for structure:
+** PK is the `(puzzle_id, block_id)` pair as the puzzle_id has a list of pieces and
+** the block_ids are unique.
+*****/
+CREATE TABLE IF NOT EXISTS puzzle_component(
+puzzle_id INT NOT NULL, 
+block_id INT NOT NULL, 
+y_coord INT NOT NULL, 
+x_coord INT NOT NULL, 
+horizontal TINYINT(1) NOT NULL DEFAULT 0, 
+tile_kind TINYINT(1) NOT NULL DEFAULT 0, 
+length INT NOT NULL, 
+PRIMARY KEY (puzzle_id, block_id), 
+FOREIGN KEY (puzzle_id) REFERENCES puzzle(id) ON DELETE CASCADE
+);

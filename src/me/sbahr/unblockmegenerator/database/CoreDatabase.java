@@ -1,13 +1,13 @@
-package io.isles.puzzlecratesgenerator.database;
+package me.sbahr.unblockmegenerator.database;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-import io.isles.puzzlecratesgenerator.component.Block;
-import io.isles.puzzlecratesgenerator.component.Board;
-import io.isles.puzzlecratesgenerator.component.TileKind;
-import io.isles.puzzlecratesgenerator.util.PuzzleUtils;
+import me.sbahr.unblockmegenerator.component.Block;
+import me.sbahr.unblockmegenerator.component.Board;
+import me.sbahr.unblockmegenerator.component.TileKind;
+import me.sbahr.unblockmegenerator.util.PuzzleUtils;
 
 public class CoreDatabase extends BaseDatabase {
 

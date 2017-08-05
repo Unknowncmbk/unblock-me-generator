@@ -1,4 +1,4 @@
-package io.isles.puzzlecratesgenerator.solver;
+package me.sbahr.unblockmegenerator.solver;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Set;
 
-import io.isles.puzzlecratesgenerator.component.Block;
-import io.isles.puzzlecratesgenerator.component.Board;
-import io.isles.puzzlecratesgenerator.component.TileKind;
+import me.sbahr.unblockmegenerator.component.Block;
+import me.sbahr.unblockmegenerator.component.Board;
+import me.sbahr.unblockmegenerator.component.TileKind;
 
 public class Solver {
 

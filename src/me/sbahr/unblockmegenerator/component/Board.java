@@ -1,11 +1,11 @@
-package io.isles.puzzlecratesgenerator.component;
+package me.sbahr.unblockmegenerator.component;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import io.isles.puzzlecratesgenerator.solver.Solver;
+import me.sbahr.unblockmegenerator.solver.Solver;
 
 public class Board {
 

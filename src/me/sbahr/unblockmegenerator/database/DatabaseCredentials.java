@@ -1,4 +1,4 @@
-package io.isles.puzzlecratesgenerator.database;
+package me.sbahr.unblockmegenerator.database;
 
 /**
  * Immutable object containing the credentials for a database.

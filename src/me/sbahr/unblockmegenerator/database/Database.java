@@ -1,4 +1,4 @@
-package io.isles.puzzlecratesgenerator.database;
+package me.sbahr.unblockmegenerator.database;
 
 import java.sql.Connection;
 

@@ -1,4 +1,6 @@
-package io.isles.puzzlecratesgenerator.component;
+package me.sbahr.unblockmegenerator.component;
+
+import me.sbahr.unblockmegenerator.component.TileKind;
 
 public class Block {
 

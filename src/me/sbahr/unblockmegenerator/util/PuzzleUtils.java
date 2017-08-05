@@ -1,11 +1,11 @@
-package io.isles.puzzlecratesgenerator.util;
+package me.sbahr.unblockmegenerator.util;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import io.isles.puzzlecratesgenerator.component.Block;
-import io.isles.puzzlecratesgenerator.component.Board;
-import io.isles.puzzlecratesgenerator.component.TileKind;
+import me.sbahr.unblockmegenerator.component.Block;
+import me.sbahr.unblockmegenerator.component.Board;
+import me.sbahr.unblockmegenerator.component.TileKind;
 
 public class PuzzleUtils {
 

@@ -1,14 +1,14 @@
-package io.isles.puzzlecratesgenerator.generator;
+package me.sbahr.unblockmegenerator.generator;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
-import io.isles.puzzlecratesgenerator.component.Block;
-import io.isles.puzzlecratesgenerator.component.Board;
-import io.isles.puzzlecratesgenerator.component.TileKind;
-import io.isles.puzzlecratesgenerator.solver.Solver;
+import me.sbahr.unblockmegenerator.component.Block;
+import me.sbahr.unblockmegenerator.component.Board;
+import me.sbahr.unblockmegenerator.component.TileKind;
+import me.sbahr.unblockmegenerator.solver.Solver;
 
 public class Generator {
 

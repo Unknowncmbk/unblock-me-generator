@@ -1,4 +1,4 @@
-package io.isles.puzzlecratesgenerator.component;
+package me.sbahr.unblockmegenerator.component;
 
 public enum TileKind {
 

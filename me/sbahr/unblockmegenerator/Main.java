@@ -1,4 +1,4 @@
-package io.isles.puzzlecratesgenerator;
+package me.sbahr.unblockmegenerator;
 
 import java.util.ArrayList;
 import java.util.List;
